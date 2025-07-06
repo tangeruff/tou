@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Dosis" sans-serif;
+    background-image: url("../img/seamless.png");
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+ul {
+    margin-left: 14px;
+    margin-top: 12px;
+    padding: 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100vh;
+    align-items: center;
+    justify-items: center;
+    /* adjusted */
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.left-panel,
+.middle-panel,
+.right-panel {
+    background: rgba(51, 51, 51, 0.9);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.left-panel h2,
+.middle-panel h2,
+.right-panel h2 {
+    margin-bottom: 10px;
+}
+
+.left-panel li,
+.middle-panel li,
+.right-panel li {
+    margin-bottom: 2px;
+    font-size: 1em;
+}
